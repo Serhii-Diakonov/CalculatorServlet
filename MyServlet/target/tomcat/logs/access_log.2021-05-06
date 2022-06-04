@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [06/May/2021:22:58:03 +0300] "GET /MyServlet HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [06/May/2021:22:58:03 +0300] "GET /MyServlet/ HTTP/1.1" 200 4077 http-bio-8080-exec-2 116
+0:0:0:0:0:0:0:1 - - [06/May/2021:22:58:05 +0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+127.0.0.1 - - [06/May/2021:22:58:15 +0300] "GET /ServletClass HTTP/1.1" 404 - http-bio-8080-exec-5 0
+127.0.0.1 - - [06/May/2021:22:58:46 +0300] "GET /ServletClass HTTP/1.1" 404 - http-bio-8080-exec-7 0
+127.0.0.1 - - [06/May/2021:23:01:58 +0300] "GET /ServletClass HTTP/1.1" 404 - http-bio-8080-exec-9 0
+127.0.0.1 - - [06/May/2021:23:06:25 +0300] "GET /MyServlet/ HTTP/1.1" 200 4077 http-bio-8080-exec-1 15
+127.0.0.1 - - [06/May/2021:23:17:56 +0300] "POST /MyServlet/ HTTP/1.1" 200 4077 http-bio-8080-exec-3 16
+127.0.0.1 - - [06/May/2021:23:21:26 +0300] "GET /MyServlet/ HTTP/1.1" 200 4077 http-bio-8080-exec-6 0
+127.0.0.1 - - [06/May/2021:23:49:00 +0300] "GET /MyServlet/ HTTP/1.1" 200 4077 http-bio-8080-exec-8 0
+127.0.0.1 - - [06/May/2021:23:49:05 +0300] "GET /MyServlet/ HTTP/1.1" 200 4077 http-bio-8080-exec-9 0
+127.0.0.1 - - [06/May/2021:23:49:29 +0300] "GET /MyServlet/ HTTP/1.1" 200 4077 http-bio-8080-exec-2 16
+127.0.0.1 - - [06/May/2021:23:50:04 +0300] "GET /MyServlet/ HTTP/1.1" 200 4077 http-bio-8080-exec-5 0
+127.0.0.1 - - [06/May/2021:23:55:05 +0300] "GET /MyServlet/ HTTP/1.1" 200 4077 http-bio-8080-exec-7 0
